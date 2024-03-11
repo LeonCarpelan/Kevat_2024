@@ -1,0 +1,51 @@
+.parent {background-color: rgb(80, 175, 175);
+padding:3rem;
+font-size:3rem;
+
+
+
+
+position:relative;
+
+}
+
+
+
+
+.child1 {background-color: rgb(120, 120, 255);
+padding:2rem;
+position:absolute;
+top:30rem;
+
+
+
+
+}
+
+
+
+.child2 {background-color: rgb(157, 214, 99);
+    padding:2rem;
+
+
+
+
+
+
+
+}
+
+
+
+.child3 {background-color: rgb(147, 64, 80);
+    padding:2rem;
+
+
+
+
+
+
+
+
+
+}

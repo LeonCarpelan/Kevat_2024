@@ -1,0 +1,51 @@
+
+/* EFFECTS WHOLE PAGE */
+*{box-sizing: border-box;
+}
+
+
+/* BASIC HEADER SHIT*/
+h1 {color:#FF0000;}
+
+h2, h3 {color:#0000FF;}
+
+/* TEXT ABOUT MAGIC */
+.magic-text {background-color:yellow;}
+
+/* TEXT NOT ABOUT MAGIC */
+.notmagic h3 { color:green;}
+
+/* UNORDERED LIST */
+.list ul {list-style-type:square;}
+
+.ul li {color:hotpink;}
+.ul li:nth-child(3) {color:black}
+.ul li:nth-child(6) {color:black}
+
+ul > li {color:#312eef;}
+
+/* MARGINS AND PADDINGS SECTION */
+
+.margins button{padding:50px 200px;
+    margin:50px;
+background-color:crimson;}
+.margins h4{margin:50px;
+    padding:30px ;
+background-color:yellow;
+width: 200px;}
+
+/* BOX MODEL PRACTISE SECTION */
+
+.boxmodel h4 {background-color:rgb(115, 115, 215);
+width:100%;
+
+border: 5px solid black;}
+
+/* LINK CUSTOMIZATION */
+
+a:link {color:#000066;}
+a:visited {color:#003366;}
+a:hover {color:#0099CC;}
+a:active {color:#FF0000;}
+a:focus {color:#FF0000;}
+

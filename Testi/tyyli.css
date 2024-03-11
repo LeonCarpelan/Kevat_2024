@@ -1,0 +1,19 @@
+
+.border p {border:0.1rem solid black}
+
+.picture img {width:9rem;
+height:12rem;
+border:0.2rem solid black;
+border-style:none;
+
+
+
+}
+
+button {border-radius:20rem
+;
+border-bottom-left-radius: 0rem;
+padding:5rem}
+
+body {background:}
+

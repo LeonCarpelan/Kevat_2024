@@ -1,0 +1,78 @@
+
+html{background-color: rgb(69, 24, 24);
+box-sizing:border-box;
+
+}
+
+
+
+nav {background-color: rgb(44, 134, 50);
+width:max-content;
+height:5rem;
+width:100%;
+}
+
+h1,h2,pre,figcaption {color:white;}
+nav a {
+    display:inline-block;
+    
+padding:1.2rem 0rem 2rem 0rem;
+margin-right:3rem;
+text-decoration:none;
+color:black;
+font-size:2rem;}
+
+.lumberjack {width:25rem;
+height:40rem;
+float:left;
+margin-top:1rem;}
+
+.forest {width:65rem;
+height:40rem;
+float:left;
+margin-top:1rem;
+margin-left:6rem;}
+
+.figf {position:absolute;
+top:61.5rem;
+left:34rem;}
+
+.figl {position:absolute;
+top:61.5rem;
+}
+h1 {float:left;}
+.progress {float:right;}
+
+.clear {clear:both;}
+
+h2 {border:0.2rem solid white;
+width:fit-content;
+padding:0.2rem;
+background-color: black;}
+
+.basic pre {background-color:black;
+width:fit-content;
+border:0.1rem solid white;
+border-radius:0.5rem;
+padding:0.2rem;}
+
+article {
+width:30rem;
+background-color: rgb(255, 255, 255);
+float:left;
+margin:1rem;
+
+}
+
+.one {
+    width:20rem;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    
+    margin:1rem;}
+
+aside {width:11.6rem;
+background-color:lightgray;
+float:left;
+margin:1rem;}
+

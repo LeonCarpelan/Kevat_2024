@@ -1,0 +1,37 @@
+header, footer {background-color:#0000FF;
+padding:1em; text-align:center;
+font-size:3em;
+font-weight: bold;
+font-family:sans-serif}
+
+
+nav {background-color:bisque ;
+padding:1em;}
+
+.Homepage {text-align:left;}
+
+section {float:left;
+width: 65%;
+color:blue;
+background-color:#ea9a49}
+
+aside {float:right;
+width:30%;
+color:red;
+padding:1em;
+background-color:#85aeec ;}
+
+article {float:left;
+padding-top:2em;
+width:65%;
+background-color:#85aeec}
+.red {color:red;}
+
+.div1 {display:flex;
+justify-content: space-around;
+font-size:115%
+
+
+
+
+}

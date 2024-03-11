@@ -1,0 +1,18 @@
+
+body { background:rgb(53, 22, 53);
+    color:rgb(255, 153, 0);
+}
+
+.red { color: rgb(115, 255, 0);}
+
+.blue {color:blue;}
+
+#brown span {color:brown;}
+
+p.red {color:red;}
+.gray, #gray, h3 {color:rgb(110, 116, 119);}
+#testcolor {color:#FF00CC}
+#testtest {font-size:150%;}
+
+#container {margin-left:auto;margin-right:auto;width:80%}
+

@@ -1,0 +1,86 @@
+/* AFFECTS EVERYTHING */
+*{margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+
+}
+
+/* COMMON FONT SIZES */
+html{font-size:62.5%}
+a {font-size:1.6rem}
+h1 {font-size:2.8rem;}
+h2 {font-size:3.6rem;
+padding:5rem 0rem ;}
+h3 {font-size:2.8rem;}
+button {font-size:1.8rem;}
+
+/* NAVIGATION */
+li a {color:rgb(255, 255, 255);
+text-decoration:none;
+font-size:2.4rem;}
+
+nav {background:rgb(43, 39, 64);
+color:white;
+padding:3rem;}
+
+nav h1 {float:left;}
+nav ul {float: right;
+list-style:none;}
+
+nav li {float:left;
+margin:0rem 4rem;}
+
+.clear {clear:both;}
+
+/* HERO SECTION / BUY BUTTON */
+.hero {
+background-image:url(/Building/media/salad-2068220_1280.jpg);
+height:80rem;
+background-size:cover;
+text-align:center;
+padding-top:20rem;
+text-shadow:0.3rem 0.3rem 1rem rgb(0, 0, 0);
+color:white;
+}
+.hero button {padding: 1rem 4rem;
+margin-top:3rem;
+background: rgb(43, 39, 64);
+border:none;
+color:white;
+cursor:pointer;
+}
+
+button:hover {background: rgb(74, 70, 95);}
+button:focus {background-color: rgb(104, 104, 104);}
+
+/* CONTACT US */
+
+.forms h2 {text-align:center;
+text-shadow:0.3rem 0.3rem 0.3rem rgb(0, 0, 0);
+color:white;}
+form {text-align:center;}
+
+.forms {background-image: url(/Building/media/pexels-dmitry-demidov-3800468.jpg);}
+
+form input, form label, form textarea {
+display:block;
+font-size:2.4rem;
+color:white;
+
+}
+form input, form textarea {margin: 1rem auto;
+    width:50%;
+}
+
+form button{font-size:3rem;
+padding:1rem 3rem;
+margin-top:2rem;
+background: rgb(82, 169, 216);
+border:none;
+color:white;
+margin-bottom: 8rem;
+cursor:pointer;
+width:50%;
+}
+form button:hover{background:rgb(30, 106, 147)}
+form button:focus{background:rgb(70, 120, 147)}

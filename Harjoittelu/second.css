@@ -1,0 +1,116 @@
+
+/* AFFECTS EVERYTHING */
+*{box-sizing:border-box;
+
+}
+
+/* AFFECTS HTML */
+html {
+    font-size:62.5%;
+    width:100%;
+    height:100% ;
+}
+body {width:100%;
+    height:100% ;
+}
+
+/* HEADINGS */
+h1 {
+    font-size:3.8rem;
+
+}
+
+h2 {
+    font-size:2.8rem;
+
+}
+
+
+/* Normal TEXT */
+p {font-size:1.6rem;}
+
+
+/* BUTTON */
+button {
+    margin:0rem 0rem 0rem 1rem;
+    padding: 3rem 5rem;
+    background: rgb(212, 85, 110);
+    border:0.3rem solid blue;
+}
+
+.button1 {
+    margin:0rem 0rem 0rem 1rem;
+    padding: 3rem 5rem;
+    background: rgb(212, 85, 110);
+    border:0.3rem dotted blue;
+}
+
+.button2 {
+    margin:0rem 0rem 0rem 1rem;
+    padding: 3rem 5rem;
+    background: rgb(212, 85, 110);
+    border:0.3rem solid blue;
+    color:rgb(255, 255, 255);
+    font-size:2.5rem;
+}
+
+.button3 {
+    margin:0rem 0rem 0rem 1rem;
+    padding: 3rem 5rem;
+    background: rgb(212, 85, 110);
+    border:0.3rem solid blue;
+    color:rgb(255, 255, 255);
+    font-size:2.5rem;
+    border-radius: 5rem;
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+/*BLOCK & INLINE */
+.block a{background-color: lightgray;
+font-size:1.6rem;
+display:block;
+text-align:center;
+margin:5rem;
+
+}
+
+.inline a{background-color: rgb(144, 94, 236);
+    font-size:1.6rem;
+  display:inline-block;
+  margin:1rem;
+    height:10rem;
+    padding:3rem;
+    padding-top:4rem;
+    }
+
+
+    /* POSITIONS */
+    .maindiv {background:lightgreen;
+    height:65%;
+width:80%;
+margin:auto;
+position: relative;
+}
+
+.div2, .div3, .div4, .div5 {
+width:20%;
+height:20%;
+background:blue;
+margin:1em;
+}
+
+.div3 {background:red;}
+
+.div4 {background:yellow;
+transform:translateX(100%)}
+
+.div5 {background:hotpink;}
+
+.div2 {position:absolute;
+bottom:50%;
+left:50%;
+transform:translate(50%,100%)
+}
+
+/* ALIGN & FLOATS */

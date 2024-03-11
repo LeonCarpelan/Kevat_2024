@@ -1,0 +1,46 @@
+.main {
+display:flex; 
+gap:1em;
+
+}
+
+
+.box {
+width:150px;
+height:150px;
+font-size:8em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align:center;
+border-radius:15px;
+}
+
+#box1 {
+background-color:#e11455 ;
+
+}
+
+#box2 {
+    background-color:#f8cf17 ;
+   order:1;
+   flex-grow:1;
+   flex-shrink:5;
+    }
+
+    #box3 {
+        background-color:#40c617 ;
+        }
+
+        #box4 {
+            background-color:#6614e1 ;
+            
+            }
+
+
+.page2 {
+font-size:2em;
+
+}
+
+.red {
+    background-color:yellow;
+}
