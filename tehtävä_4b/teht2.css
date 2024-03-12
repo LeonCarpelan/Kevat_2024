@@ -1,0 +1,58 @@
+html {font-size:62.5%;
+background:rgb(225, 94, 61);
+}
+
+*{padding:0%;
+    margin:0%;}
+/* FONT SIZES */
+p {font-size:1.6rem;}
+h4 {font-size:2.1rem;}
+h3 {font-size:2.5rem;}
+h2 {font-size:3rem;}
+#navigation {font-size:3rem;}
+
+/* SETTINGS FOR MAIN  */
+
+#main {text-align:center;
+    width:64rem;
+margin:auto;
+background:rgb(0, 0, 0);
+height:86.5rem;
+color:white;}
+
+/* HEADER */
+#header {text-align:center;
+font-size:2.0rem;
+color: white;
+background-color: rgb(44, 134, 50);
+padding:3rem;
+}
+
+/* NAVIGATION */
+#navigation li a {text-decoration: none;
+color:white;
+}
+#navigation li {list-style:none;}
+
+#navigation a:hover {color:rgb(255, 0, 0);}
+
+#navigation {float:left;
+position:fixed;
+width:45rem;
+background-color:rgb(225, 94, 61);
+height:100%
+}
+
+/* SECTION */
+#section {padding:0rem 1rem;}
+
+#section p{border:0.1rem solid rgb(255, 255, 255);
+padding:0.5rem;
+background-color: rgb(98, 97, 97);}
+
+.p1, .p2 {margin:2rem 0rem;}
+.p3 {margin-top:2rem;
+margin-bottom:1rem;}
+
+.h4 {margin-top:2rem;}
+.h3 {margin-top: 3rem;}
