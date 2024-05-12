@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    
+<!--NAV BAR-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <div class="container">
+        <a href="#" class="navbar-brand">LOGO</a>
+
+    <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation"> 
+        <div class="navbar-toggler-icon"></div>
+    </button>    
+    <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav">
+            <li class="nav-item"> 
+                <a href="#" class="nav-link active" aria-current="page">Home</a> </li>
+            <li class="nav-item"> 
+                <a href="#" class="nav-link">Store</a> </li>
+             <li class="nav-item"> 
+                 <a href="#" class="nav-link">About</a> </li>   
+        </ul>
+    </div>
+
+    </div>
+</nav>
+
+<div class="container">
+    <p class="text-center">LOGO</p>
+</div>
+<br><br><br>
+<!--BOX CONTAINERS -->
+<div class="container">
+
+<div class="row row-cols-2 row-cols-lg-4 row-cols-xl-5 g-4 ">
+<!--Row inside a row-->
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Normal row-->
+     <div class="col">
+        <div class="box"></div>
+
+        </div>
+
+   <div class="col">
+        <div class="box"> </div>
+
+        </div>
+
+    <div class="col">
+        <div class="box"> </div>
+    
+        </div>
+
+    <div class="col">
+        <div class="box"> </div>
+        
+        </div>
+
+    <div class="col">
+         <div class="box"> </div>
+            
+         </div>
+
+</div>
+
+</div>
+
+  <!-- USER INFO TABLE -->
+  <div class="container">
+<table class="table table-light table-hover table-bordered ">
+
+<thead>
+    <tr class="table-primary">
+    <th>First</th>
+    <th>Last</th>
+    <th>Age</th>
+    </tr>
+</thead>
+
+<tbody class="table-group-divider">
+
+    <tr>
+        <td class="table-danger">Leon</td>
+        <td class="table-warning">Carpelan</td>
+        <td class="table-info">20</td>
+    </tr>
+
+    <tr>
+        <td>Marko</td>
+        <td>Mustala</td>
+        <td>46</td>
+    </tr>
+    
+    <tr>
+        <td>Petteri</td>
+        <td>Punakuono</td>
+        <td>74</td>
+    </tr>
+    
+ </tbody>
+
+    </table>
+</div>
+    
+    <!-- FORMS -->
+<div class="container">
+<form>
+
+<label for="email" class="form-label">Email</label>
+<input name="email" type="email" id="email" class="form-control form-control-lg form-control-plaintext" value="email here">
+<button>Submit</button>
+
+</form>
+
+<br>
+<form>
+
+    <label for="color" class="form-label">Email</label>
+    <input name="color" type="color" id="color" value="email here" class="form-control form-control-color">
+    <button>Submit</button>
+    
+    </form>
+
+    <form>
+
+        <label for="range" class="form-label">Email</label>
+        <input name="range" type="range" id="range"  class="form-range">
+        <button>Submit</button>
+        
+        </form>
+
+        <form>
+            
+<select disabled class="form-select">
+    <option>1</option>
+    <option>2</option>
+    
+</select>
+<button>Submit</button>
+</form>
+
+
+<form>
+    <div class="form-check form-switch">
+    <input name="checkbox" id="checkbox" type="checkbox" class="form-check-input">
+    <label for="checkbox" class="form-check-label">Click here</label>
+    </div>
+</form>
+
+    </div>   
+    
+    <!-- NORMAL TABLE --> 
+<table class="leon1">
+<thead>
+    <tr>
+<th class="leon1">FIrst name</th>
+<th class="leon1">Last Name</th>
+<th class="leon1">Age</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+    <td class="leon1">Leon</td>
+    <td class="leon1">Carpelan</td>
+    <td class="leon1">20</td>
+    </tr>
+    <tr>
+    <td class="leon1">Leon</td>
+    <td class="leon1">Carpelan</td>
+    <td class="leon1">20</td>
+    </tr>
+    <tr>
+    <td class="leon1">Leon</td>
+    <td class="leon1">Carpelan</td>
+    <td class="leon1">20</td>
+</tr>
+</tbody>
+
+</table>
+
+
+<!-- NORMAL FORM -->
+<div class="normalform">
+<br><br>
+<form>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+</form> 
+<br>
+<form>
+    <label for="range">Range</label>
+    <input type="range" id="range" name="range">
+</form>
+<br>
+<form>
+<label for="color">Color</label>
+<input type="color" id="color" name="color">
+
+</form>
+<br>
+<form action="#">
+    <label for="text">Etunimi</label>
+    <input type="text" id="text" name="text">
+    <label for="text">Sukunimi</label>
+    <input type="text" id="text" name="text">
+    <label for="number">Ikä</label>
+    <input type="number" id="number" name="number" min="1" max="120">
+    <input type="submit" value="Tallenna">
+</form>
+<br>
+<form>
+    <label for="date">Syntymäpäivä</label>
+    <input type="date" id="date" name="date">
+</form>
+
+<form>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    
+</form>
+
+</div>
+
+<br><br><br>
+<!-- INPUT GROUP -->
+<div class="container">
+    <form>
+    <label for="text" class="form-label">Different currencies</label>
+    <div class="input-group">
+    <div class="input-group-text">£</div>
+    <input type="number" class="form-control" id="text">
+    <button class="btn btn-primary">Pay now!</button>
+</div>
+    <button>Submit</button>
+</form>
+
+</div>
+
+<br><br><br>
+<!-- FORMS AGAIN -->
+<div class="container">
+<form>
+
+<div class="form-floating">
+    <input type="email" id="email" class="form-control" placeholder="Email" required>
+    <label for="email" class="form-label">Email Here</label>
+</div>
+
+<button>Submit</button>
+
+
+
+</form>
+
+
+
+
+
+
+</div>
+
+<br><br>
+<!-- BUTTONS -->
+<div class="container">
+    <div class="btn-group">
+<button class="btn btn-warning">Submit</button>
+<a  class="btn btn-outline-primary" href="#">Submit</a>
+<button class="btn btn-link">Submit</button>
+<button class="btn btn-outline-primary" data-bs-toggle="button">Submit</button>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<br><br><br>
+<!-- ALERTS -->
+<div class="container">
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <h1>Email sent</h1>
+    <a href="#" class="alert-link">Click here for more information!</a>
+    <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+</div>
+
+
+
+
+</div>
+
+<!-- CARDS -->
+<div class="container">
+    <div class="card-group">
+<div class="card">
+    <h1 class="card-header">Header</h1>
+    <div class="card-body">
+        <div class="card-title"><h2>Title 1</h2></div>
+        <div class="card-subtitle"><h4>Title 2</h4></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto illum soluta id ad alias quo quos dolorem, quae debitis modi?</p>
+</div>
+<div class="card-footer">Footer</div>
+</div>
+<div class="card">
+    <h1 class="card-header">Header</h1>
+    <div class="card-body">
+        <div class="card-title"><h2>Title 1</h2></div>
+        <div class="card-subtitle"><h4>Title 2</h4></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto illum soluta id ad alias quo quos dolorem, quae debitis modi?</p>
+</div>
+<div class="card-footer">Footer</div>
+</div>
+    </div>
+
+</div>
+
+
+<br><br>
+<!-- MODALS -->
+<div class="container">
+    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal">Open</button>
+
+    <div class="modal" id="modal">
+        <div class="modal-dialog modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header"> <h2>Header</h2> <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button> </div>
+                <div class="modal-body">Body</div>
+                <div class="modal-footer">Footer</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br><br>
+<!-- COLLAPSE -->
+<div class="container">
+    <button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#row" aria-expanded="true" aria-controls="row">Toggle</button>
+
+<div class="row collapse show" id="row">
+    <div class="col">
+        <div class="box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, vitae illum molestias hic a molestiae eius aperiam ducimus. Odio corporis animi consequuntur nisi optio alias ullam voluptas atque facilis doloremque, impedit mollitia. Vero nulla architecto facilis ipsa, vitae consequuntur quo consequatur numquam! Architecto distinctio recusandae corporis repellendus fugiat voluptatibus autem.</p></div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+<br><br><br>
+<!-- COLOR UTILITIES -->
+<div class="container">
+    <div class="card text-bg-dark">
+        <div class="card-body">
+            <a href="#" class="link-success">Test Link</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni quidem quos quasi, nemo molestiae nulla officiis voluptatem adipisci placeat.
+        </div>
+    </div>
+</div>
+
+<br><br>
+<!-- & STACK UTILITIES  -->
+<div class="container">
+    <div class="hstack gap-3">
+        <div class="box" style="width:100%;"></div>
+        <div class="box" style="width:100%;"></div>
+        <div class="box" style="width:100%;"></div>
+        <div class="box" style="width:100%;"></div>
+    </div>
+</div>
+
+<br><br>
+<!-- BORDER UTILITIES -->
+<div class="container">
+    <div class=" border-3 border ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni quidem quos quasi, nemo molestiae nulla officiis voluptatem adipisci placeat.
+    </div>
+</div>
+ 
+<br><br><br>
+<!-- FLEX BOX UTILITIES BOOTSRAP-->
+<div class="container">
+    <div class="d-flex ">
+        <div class="box" style="width:100px; height:100px;"></div>
+        <div class="box align-self-center" style="width:100px;"></div>
+        <div class="box flex-lg-grow-1" style="width:100px;"></div>
+        <div class="box" style="width:100px;"></div>
+
+
+    </div>
+</div>
+
+
+<br><br><br>
+</body>
+</html>
