@@ -436,7 +436,7 @@ align-items: center;
 .homepic { display: grid;
     grid-template-rows: repeat(6, 6.25rem);
     grid-template-columns: repeat(13, 6.25rem);
-background-image: url(../media/pexels-ekrulila-3957616.jpg);
+background-image: url(./media/pexels-ekrulila-3957616.jpg);
 height:37.5rem; width:100%;
 background-size: cover;
 background-position: top;
@@ -484,7 +484,7 @@ background-position: top;
 
 .contactpic { 
     text-align: center;
-background-image: url(../media/contact-us-4193523_1280.jpg);
+background-image: url(./media/contact-us-4193523_1280.jpg);
 height:27.9rem; width:100%;
 background-size: cover;
 background-position:top;
